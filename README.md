@@ -12,15 +12,16 @@ Ongoing Courses:
     
     3.  Webpack 4 in 2020: The Complete Tutorial For Beginners
         Course URL: https://www.udemy.com/course/webpack-from-beginner-to-advanced/
+        
+    4.  The Complete JavaScript Course 2020: Build Real Projects!
+        Course URL: https://www.udemy.com/course/the-complete-javascript-course
 
 Waiting List:
 
-    1.  The Complete JavaScript Course 2020: Build Real Projects!
+    1.  Advanced CSS and Sass: Flexbox, Grid, Animations and More!
 
-    2.  Advanced CSS and Sass: Flexbox, Grid, Animations and More!
+    2.  Vue - The Complete Guide (w/ Router, Vuex, Composition API)
 
-    3.  Vue - The Complete Guide (w/ Router, Vuex, Composition API)
+    3.  Angular & NodeJS - The MEAN Stack Guide [2020 Edition]
 
-    4.  Angular & NodeJS - The MEAN Stack Guide [2020 Edition]
-
-    5.  The Frontend Developer Career Blueprint - The shortcuts
+    4.  The Frontend Developer Career Blueprint - The shortcuts
