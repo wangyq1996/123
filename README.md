@@ -15,6 +15,9 @@ Ongoing Courses:
         
     4.  The Complete JavaScript Course 2020: Build Real Projects!
         Course URL: https://www.udemy.com/course/the-complete-javascript-course
+        
+    5.  The Frontend Developer Career Blueprint - The shortcuts
+        Course URL: https://www.udemy.com/course/the-frontend-developer-career-blueprint-the-shortcuts
 
 Waiting List:
 
@@ -24,4 +27,4 @@ Waiting List:
 
     3.  Angular & NodeJS - The MEAN Stack Guide [2020 Edition]
 
-    4.  The Frontend Developer Career Blueprint - The shortcuts
+    
