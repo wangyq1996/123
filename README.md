@@ -1,6 +1,6 @@
 # Courses on Udemy
 
-- Ongoing Courses:
+- **Ongoing Courses**:
 
     - [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) 
     
@@ -12,7 +12,7 @@
         
     - [The Frontend Developer Career Blueprint - The shortcuts](https://www.udemy.com/course/the-frontend-developer-career-blueprint-the-shortcuts)
 
-- Waiting List:
+- **Waiting List**:
 
     - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass)
 
