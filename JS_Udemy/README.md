@@ -1,6 +1,6 @@
 # The Complete JavaScript Course 2021: From Zero to Expert!
 
-* [Course Notes](#notes)
+* [Course Notes](#course-notes)
 
 1. - [x] Welcome, Welcome, Welcome!
 2. - [ ] JavaScript Fundamentals - Part1
@@ -27,12 +27,16 @@ Tooling, and Functional
 19. - [ ] Setting Up Git and Deployment
 20. - [ ] The End!
 
-## Notes
-- Primitive Data Types
-    - Number
-    - String
-    - Boolean
-    - Undefined
-    - Null
-    - Symbol(ES6): Value that is unique
-    - BigInt(ES2020): Larger intergers than Number
+## **Course Notes**
+### **Catalog:**
+-  [JS Fundamentals](#js-fundamentals)
+    - [Primitive Data Types](#primitive-data-types)
+### **JS Fundamentals:**
+#### Primitive Data Types:
+- Number
+- String
+- Boolean
+- Undefined
+- Null
+- Symbol(ES6): Value that is unique
+- BigInt(ES2020): Larger intergers than Number
