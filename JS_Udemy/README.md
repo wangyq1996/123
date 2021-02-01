@@ -1,6 +1,6 @@
 # The Complete JavaScript Course 2021: From Zero to Expert!
 - [Course Notes](#notes)
-- Sections:
+## Sections:
     1. - [ ] Welcome, Welcome, Welcome!
     2. [ ] JavaScript Fundamentals - Part1
     3. [ ] JavaScript Fundamentals - Part2
