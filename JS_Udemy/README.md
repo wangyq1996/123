@@ -1,11 +1,13 @@
 # The Complete JavaScript Course 2021: From Zero to Expert!
+
 * [Course Notes](#notes)
-1. - [ ] Welcome, Welcome, Welcome!
+
+1. - [x] Welcome, Welcome, Welcome!
 2. - [ ] JavaScript Fundamentals - Part1
 3. - [ ] JavaScript Fundamentals - Part2
-4. - [ ] How to Navigate This Course
+4. - [x] How to Navigate This Course
 5. - [ ] Developer Skills & Editor Setup
-6. - [ ] [OPTIONAL] HTML & CSS Crash Course
+6. - [ ] HTML & CSS Crash Course
 7. - [ ] JavaScript in the Browser: DOM and Events Fundamentals
 8. - [ ] How JavaScript Works Behind the Scences
 9. - [ ] Data Structures, Modern Operators and Strings
@@ -24,4 +26,13 @@ Tooling, and Functional
 18. - [ ] Forkify App: Building a Modern Application
 19. - [ ] Setting Up Git and Deployment
 20. - [ ] The End!
+
 ## Notes
+- Primitive Data Types
+    - Number
+    - String
+    - Boolean
+    - Undefined
+    - Null
+    - Symbol(ES6): Value that is unique
+    - BigInt(ES2020): Larger intergers than Number

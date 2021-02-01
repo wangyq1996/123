@@ -1,8 +1,6 @@
 # WebProgramming Courses on Udemy
 
 - **Ongoing Courses**:
-
-    - [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) 
     
     - [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
     
@@ -20,4 +18,6 @@
 
     - [Angular & NodeJS - The MEAN Stack Guide [2021 Edition]](https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide)
 
-    
+- **Finished Courses**:
+
+    - [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) 
