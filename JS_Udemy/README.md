@@ -29,7 +29,7 @@ Tooling, and Functional
 
 ## **Course Notes**
 ### **Catalog:**
--  [JS Fundamentals](#js-fundamentals)
+-  [**JS Fundamentals**](#js-fundamentals)
     - [Primitive Data Types](#primitive-data-types)
     - [Let, const & var](#let,-const-&-var)
     - [Truthy & falsy values](#truthy-&-falsy-values)
