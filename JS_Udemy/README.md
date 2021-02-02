@@ -3,7 +3,7 @@
 * [Course Notes](#course-notes)
 
 1. - [x] Welcome, Welcome, Welcome!
-2. - [ ] JavaScript Fundamentals - Part1
+2. - [x] JavaScript Fundamentals - Part1
 3. - [ ] JavaScript Fundamentals - Part2
 4. - [x] How to Navigate This Course
 5. - [ ] Developer Skills & Editor Setup
@@ -31,6 +31,8 @@ Tooling, and Functional
 ### **Catalog:**
 -  [JS Fundamentals](#js-fundamentals)
     - [Primitive Data Types](#primitive-data-types)
+    - [Let, const & var](#let,-const-&-var)
+    - [Truthy & falsy values](#truthy-&-falsy-values)
 ### **JS Fundamentals:**
 #### Primitive Data Types:
 - Number
@@ -40,3 +42,16 @@ Tooling, and Functional
 - Null
 - Symbol(ES6): Value that is unique
 - BigInt(ES2020): Larger intergers than Number
+
+#### Let, const & var:
+- let
+- const
+- var
+
+#### Truthy & falsy values:
+- 5 falsy values:
+    - 0
+    - ''
+    - undefined
+    - null
+    - NaN
