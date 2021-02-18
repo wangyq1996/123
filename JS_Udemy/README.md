@@ -33,6 +33,7 @@ Tooling, and Functional
     - [Primitive Data Types](#primitive-data-types)
     - [Let, const & var](#let,-const-&-var)
     - [Truthy & falsy values](#truthy-&-falsy-values)
+    - [Ways to declare functions](#ways-to-declare-functions)
 ### **JS Fundamentals:**
 #### Primitive Data Types:
 - Number
@@ -55,3 +56,25 @@ Tooling, and Functional
     - undefined
     - null
     - NaN
+
+#### Ways to declare functions
+- **Function Declaration:** 
+    ```
+    function calcAge1(birthYear) {
+        return 2021 - birthYear;
+    }
+    ```
+    Function declaration can be called **before** the declaration.
+- **Function Expression:**
+    ```
+    const calcAge2 = function (birthYear) {
+        return 2021 - birthYear;
+    };
+    ```
+- **Arrow Function:**
+    ```
+    const calcAge3 = (birthYear) => {
+        return 2021 - birthYear;
+    };
+    ```
+    Arrow function doesn't have **'this'** keyword.
