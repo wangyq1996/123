@@ -26,7 +26,7 @@ Tooling, and Functional
 18. - [ ] Forkify App: Building a Modern Application
 19. - [ ] Setting Up Git and Deployment
 20. - [ ] The End!
-
+s
 ## **Course Notes**
 ### **Catalog:**
 -  [**JS Fundamentals**](#js-fundamentals)
