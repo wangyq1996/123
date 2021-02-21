@@ -4,7 +4,7 @@
 
 1. - [x] Welcome, Welcome, Welcome!
 2. - [x] JavaScript Fundamentals - Part1
-3. - [ ] JavaScript Fundamentals - Part2
+3. - [x] JavaScript Fundamentals - Part2
 4. - [x] How to Navigate This Course
 5. - [ ] Developer Skills & Editor Setup
 6. - [ ] HTML & CSS Crash Course
