@@ -34,11 +34,11 @@
 
 -   [**JS Fundamentals**](#js-fundamentals)
     -   [Primitive Data Types](#primitive-data-types)
-    -   [Let, const & var](#let,-const-&-var)
+    -   [Let, const & var](#let-const--var)
     -   [Truthy & falsy values](#truthy-&-falsy-values)
     -   [Ways to declare functions](#ways-to-declare-functions)
 -   [**DOM and Events**](#dom-and-events)
-    -   ['keypress' vs 'keydown' / 'keyup'](#'keypress'-vs-'keydown'-/-'keyup')
+    -   ['keypress' vs 'keydown' / 'keyup'](#keypress-vs-keydown--keyup)
 
 ### **JS Fundamentals:**
 
