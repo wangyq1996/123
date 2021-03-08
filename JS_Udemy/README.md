@@ -147,7 +147,7 @@
     testcases:
 
     ```
-        'use strict';
+    'use strict';
 
     // this keyword testcase
 
