@@ -9,7 +9,7 @@
 5.  -   [x] Developer Skills & Editor Setup
 6.  -   [x] HTML & CSS Crash Course
 7.  -   [x] JavaScript in the Browser: DOM and Events Fundamentals
-8.  -   [ ] How JavaScript Works Behind the Scences
+8.  -   [x] How JavaScript Works Behind the Scences
 9.  -   [ ] Data Structures, Modern Operators and Strings
 10. -   [ ] A Closer Look at Functions
 11. -   [ ] Working With Arrays
@@ -26,7 +26,6 @@
 18. -   [ ] Forkify App: Building a Modern Application
 19. -   [ ] Setting Up Git and Deployment
 20. -   [ ] The End!
-            s
 
 ## **Course Notes**
 
@@ -37,6 +36,7 @@
     -   [Let, const & var](#let-const--var)
     -   [Truthy & falsy values](#truthy-&-falsy-values)
     -   [Ways to declare functions](#ways-to-declare-functions)
+    -   [Execution Context](#execution-context)
 -   [**DOM and Events**](#dom-and-events)
     -   ['keypress' vs 'keydown' / 'keyup'](#keypress-vs-keydown--keyup)
 
@@ -88,7 +88,109 @@
         return 2021 - birthYear;
     };
     ```
-    Arrow function doesn't have **'this'** keyword.
+    **Arrow functions** do not have arguments object & own 'this'
+
+#### Execution Context
+
+-   Variable Environment:
+
+    -   let, const and var declarations
+    -   Functions
+    -   arguments object
+
+        testcases:
+
+        ```
+            // arguments keyword testcase
+            const addExpr = function (a, b) {
+                console.log(arguments); // all arguments passed in as an array
+                return a + b;
+            };
+            addExpr(2, 5, 3, 7); // [2, 5, 3, 7]
+
+            var addArrow = (a, b) => {
+                console.log(arguments); // undefined
+                return a + b;
+            }
+        ```
+
+    -   Hoisting:
+
+        Make some types of variables accessible **before** they actually declared.
+
+        |                               | Hoisted?                               | Initial value                             | Scope    |
+        | ----------------------------- | -------------------------------------- | ----------------------------------------- | -------- |
+        | Function declarations         | ✅ YES                                 | Actual function                           | Block    |
+        | var                           | ✅ YES                                 | undefined                                 | Function |
+        | let & const                   | 🚫 NO                                  | \<uninitialized>,Temporal Dead Zone (TDZ) | Block    |
+        | Function expressions & arrows | 🤷🏿 Depends if using var or let / const |
+
+-   Scope chain:
+
+    -   3 types of scope:
+        -   Global scope
+        -   Function scope
+        -   Block scope (ES6)
+            > only 'let' & 'const', 'var' will be function / global scope
+
+-   'this' keyword:
+
+    Special variable created for every execution context. **this** is **NOT** static. It depends on **how** the function is called, and its value is only assigned when the function **is actually called.**
+
+    4 ways calling function:
+
+    -   Method 👉🏿 this = \<Object that is calling the method>
+    -   Simple function call 👉🏿 this = undefined (If not strict mode, this would be 'window')
+    -   Arrow functions 👉🏿 this = \<this of surrounding function (lexical this)> (would be 'window' if in globe scope)
+    -   Event listener 👉🏿 this = \<DOM element that the handler is attached to>
+
+    testcases:
+
+    ```
+        'use strict';
+
+    // this keyword testcase
+
+    var firstName = 'test1';
+    // this variable would be added to globe scope
+
+    const secondName = 'test2';
+    // this variable would not be added to globe scope
+
+    const test = {
+        firstName: 'test3',
+
+        calc: function () {
+            console.log(this); // Object test
+            console.log(this.firstName); // test3
+
+            const self = this;
+            const test1 = function () {
+                console.log(this); // undefined
+                console.log(self); // Object test
+            };
+
+            const test2 = () => {
+                console.log(this); // Object test
+            };
+
+            test1();
+            test2();
+        },
+
+        greet: () => {
+            console.log(this); // window
+            console.log(this.firstName); // test1
+            console.log(this.secondName); // undefined
+        },
+        // Object is not a function scope, so parent of greet would be 'window'
+
+        // So never use arrow function as method
+    };
+
+    test.calc();
+    test.greet();
+    ```
 
 ## **DOM and Events:**
 
