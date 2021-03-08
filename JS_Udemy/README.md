@@ -101,17 +101,17 @@
         testcases:
 
         ```
-            // arguments keyword testcase
-            const addExpr = function (a, b) {
-                console.log(arguments); // all arguments passed in as an array
-                return a + b;
-            };
-            addExpr(2, 5, 3, 7); // [2, 5, 3, 7]
+        // arguments keyword testcase
+        const addExpr = function (a, b) {
+            console.log(arguments); // all arguments passed in as an array
+            return a + b;
+        };
+        addExpr(2, 5, 3, 7); // [2, 5, 3, 7]
 
-            var addArrow = (a, b) => {
-                console.log(arguments); // undefined
-                return a + b;
-            }
+        var addArrow = (a, b) => {
+            console.log(arguments); // undefined
+            return a + b;
+        }
         ```
 
     -   Hoisting:
