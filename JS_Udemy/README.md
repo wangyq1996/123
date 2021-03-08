@@ -123,7 +123,7 @@
         | Function declarations         | ✅ YES                                 | Actual function                           | Block    |
         | var                           | ✅ YES                                 | undefined                                 | Function |
         | let & const                   | 🚫 NO                                  | \<uninitialized>,Temporal Dead Zone (TDZ) | Block    |
-        | Function expressions & arrows | 🤷🏿 Depends if using var or let / const |
+        | Function expressions & arrows | 🤷 Depends if using var or let / const |
 
 -   Scope chain:
 
@@ -139,10 +139,10 @@
 
     4 ways calling function:
 
-    -   Method 👉🏿 this = \<Object that is calling the method>
-    -   Simple function call 👉🏿 this = undefined (If not strict mode, this would be 'window')
-    -   Arrow functions 👉🏿 this = \<this of surrounding function (lexical this)> (would be 'window' if in globe scope)
-    -   Event listener 👉🏿 this = \<DOM element that the handler is attached to>
+    -   Method 👉 this = \<Object that is calling the method>
+    -   Simple function call 👉 this = undefined (If not strict mode, this would be 'window')
+    -   Arrow functions 👉 this = \<this of surrounding function (lexical this)> (would be 'window' if in globe scope)
+    -   Event listener 👉 this = \<DOM element that the handler is attached to>
 
     testcases:
 
