@@ -39,10 +39,12 @@
     -   [Execution Context](#execution-context)
 -   [**DOM and Events**](#dom-and-events)
     -   ['keypress' vs 'keydown' / 'keyup'](#keypress-vs-keydown--keyup)
+-   [**Arrays, Morden Operators & Strings**](#arrays,-morden-operators-&-strings)
+    -   [Spread & REST Syntax (...)](#spread-&-rest-syntax-(...))
 
-### **JS Fundamentals:**
+## **JS Fundamentals:**
 
-#### Primitive Data Types:
+### Primitive Data Types:
 
 -   Number
 -   String
@@ -52,13 +54,13 @@
 -   Symbol(ES6): Value that is unique
 -   BigInt(ES2020): Larger intergers than Number
 
-#### Let, const & var:
+### Let, const & var:
 
 -   let
 -   const
 -   var
 
-#### Truthy & falsy values:
+### Truthy & falsy values:
 
 -   5 falsy values:
     -   0
@@ -67,7 +69,7 @@
     -   null
     -   NaN
 
-#### Ways to declare functions:
+### Ways to declare functions:
 
 -   Function Declaration:
     ```
@@ -90,7 +92,7 @@
     ```
     **Arrow functions** do not have arguments object & own 'this'
 
-#### Execution Context
+### Execution Context:
 
 -   Variable Environment:
 
@@ -194,7 +196,7 @@
 
 ## **DOM and Events:**
 
-#### 'keypress' vs 'keydown' / 'keyup':
+### 'keypress' vs 'keydown' / 'keyup':
 
 -   'keypress':
 
@@ -205,3 +207,50 @@
 -   'keydown' / 'keyup':
 
     'keydown' / 'keyup' event is fired for **all** keys.
+
+## **Arrays, Morden Operators & Strings**
+
+### Spread & REST Syntax (...):
+
+-   Spread syntax:
+
+    Spread syntax (...) allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (Shallow Copy).
+
+    Iterables: arrays, strings, maps, sets. NOT Objects.
+
+    > **Object can use spread operators since ES2018**
+
+    ```
+        // Arrays
+        const arr2 = [7, 8, 9];
+        const newArr = [1, 2, ...arr2]; // [1, 2, 7, 8, 9]
+
+        // String
+        const str = 'Yuqi';
+        console.log(str); // Y, u, q, i
+
+        // Objects
+        const obj = {
+            a: 1,
+            b: 2,
+        };
+
+        const newObj = { ...obj, c: 3 };
+        console.log(newObj); // {a: 1, b: 2, c: 3}
+    ```
+
+-   REST operator:
+
+    Spread syntax "expands" an array into its elements, while rest syntax collects multiple elements and "condenses" them into a single element.
+
+    ```
+        // Arrays
+        const arr = [1, 2 ,7, 8, 9];
+        const [a, b, ...newArr] = arr;
+        console.log(newArr); // [7, 8, 9]
+
+        // Functions
+        const add = (...args) => console.log(args);
+        add(1, 2, 3, 4); // [1, 2, 3, 4]
+    ```
+
