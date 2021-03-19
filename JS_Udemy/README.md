@@ -40,7 +40,7 @@
 -   [**DOM and Events**](#dom-and-events)
     -   ['keypress' vs 'keydown' / 'keyup'](#keypress-vs-keydown--keyup)
 -   [**Arrays, Morden Operators & Strings**](#arrays,-morden-operators-&-strings)
-    -   [Spread & REST Syntax (...)](#spread-&-rest-syntax-(...))
+    -   [Spread & REST Syntax (...)](#spread--rest-syntax-)
 
 ## **JS Fundamentals:**
 
