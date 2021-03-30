@@ -77,3 +77,7 @@ console.log(newArr1); // [7, 8, 9]
 
 const add = (...args) => console.log(args);
 add(1, 2, 3, 4);
+
+const staff = [1, 2, 3, 1, 2];
+const set = [...new Set(staff)];
+console.log(set);

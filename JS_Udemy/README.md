@@ -10,7 +10,7 @@
 6.  -   [x] HTML & CSS Crash Course
 7.  -   [x] JavaScript in the Browser: DOM and Events Fundamentals
 8.  -   [x] How JavaScript Works Behind the Scences
-9.  -   [ ] Data Structures, Modern Operators and Strings
+9.  -   [x] Data Structures, Modern Operators and Strings
 10. -   [ ] A Closer Look at Functions
 11. -   [ ] Working With Arrays
 12. -   [ ] Numbers, Dates, Intl and Timers
