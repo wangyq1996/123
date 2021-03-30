@@ -2,19 +2,21 @@
 
 -   **Ongoing Courses**:
 
-    -   [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
-
-    -   [Webpack 4 in 2020: The Complete Tutorial For Beginners](https://www.udemy.com/course/webpack-from-beginner-to-advanced/)
+    -   [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)
 
     -   [The Complete JavaScript Course 2021: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course)
 
 -   **Waiting List**:
+
+    -   [Webpack 5: The Complete Guide For Beginners](https://www.udemy.com/course/webpack-from-beginner-to-advanced/)
 
     -   [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass)
 
     -   [Vue - The Complete Guide (w/ Router, Vuex, Composition API)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 
     -   [Angular & NodeJS - The MEAN Stack Guide [2021 Edition]](https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide)
+
+    -   [The Complete React Native + Hooks Course [2020 Edition]](https://www.udemy.com/course/the-complete-react-native-and-redux-course/)
 
 -   **Finished Courses**:
 
