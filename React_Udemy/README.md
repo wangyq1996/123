@@ -4,8 +4,8 @@
 
 1.  -   [x] Let's Dive In!
 2.  -   [x] Building Content with JSX
-3.  -   [ ] Communicating with Props
-4.  -   [ ] Structuring Apps with Class-Based Components
+3.  -   [x] Communicating with Props
+4.  -   [x] Structuring Apps with Class-Based Components
 5.  -   [ ] State in React Components
 6.  -   [ ] Understanding Lifecycle Methods
 7.  -   [ ] Handling User Input with Forms and Events
@@ -40,6 +40,7 @@
 
 -   [**React Basics**](#react-basics)
     -   [JSX vs HTML](#jsx-vs-html)
+    -   [Functional VS Class Components](#functional-vs-class-components)
 
 ## **React Basics:**
 
@@ -74,3 +75,5 @@
     ```
 
 -   JSX can use JS variables
+
+### Functional VS Class Components:
