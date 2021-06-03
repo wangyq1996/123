@@ -6,7 +6,7 @@
 2.  -   [x] Building Content with JSX
 3.  -   [x] Communicating with Props
 4.  -   [x] Structuring Apps with Class-Based Components
-5.  -   [ ] State in React Components
+5.  -   [x] State in React Components
 6.  -   [ ] Understanding Lifecycle Methods
 7.  -   [ ] Handling User Input with Forms and Events
 8.  -   [ ] Making API Requests with React
@@ -41,6 +41,7 @@
 -   [**React Basics**](#react-basics)
     -   [JSX vs HTML](#jsx-vs-html)
     -   [Functional VS Class Components](#functional-vs-class-components)
+    -   [Rules of State](#rules-of-state)
 
 ## **React Basics:**
 
@@ -77,3 +78,10 @@
 -   JSX can use JS variables
 
 ### Functional VS Class Components:
+
+### Rules of State:
+-   Only usable with class components (need React Hooks in function components)
+-   'State' is a JS object
+-   Updating 'state' on a component causes the component instantly **rerender**
+-   'State' can only be updated using 'setState' function
+-   Only write the keys needs to be updated (others will stay untouched)
