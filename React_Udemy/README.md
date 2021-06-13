@@ -42,6 +42,7 @@
     -   [JSX vs HTML](#jsx-vs-html)
     -   [Functional VS Class Components](#functional-vs-class-components)
     -   [Rules of State](#rules-of-state)
+    -   [React Lifecyle]($react-lifecyle)
 
 ## **React Basics:**
 
@@ -80,8 +81,31 @@
 ### Functional VS Class Components:
 
 ### Rules of State:
+
 -   Only usable with class components (need React Hooks in function components)
 -   'State' is a JS object
 -   Updating 'state' on a component causes the component instantly **rerender**
 -   'State' can only be updated using 'setState' function
 -   Only write the keys needs to be updated (others will stay untouched)
+
+### React Lifecyle:
+
+-   constructor
+
+    **Not reconmended for data loading (like calling API)**
+    
+    Do it in **componentDidMount**
+
+-   render
+
+    Content show on the screen
+
+-   componentDidMount
+
+    Sit & wait for update
+
+-   componentDidUpdate
+
+    Sit & wait until no longer shown
+
+-   componentWillUnmount
